@@ -18,19 +18,25 @@
           <form id="survey-form" type="submit">
             <div class="form-group">
                 <label for="name-label" id="name-label">Name </label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name"  placeholder="Enter your name here" required>
             </div>
 
             <div class="form-group">
                 <label for="email-label" id="email-label">Email </label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
             </div>
 
               <div class="form-group">
                   <label for="number-labe" id="number-label">Number</label>
-                  <input type="number" name="number" id="number" min="1" max="10">
+                  <input type="number" name="number" id="number" min="1" max="10" placeholder="Enter the a number">
               </div>
-
+              <div class="form-group">
+                <select name="" id="dropdown">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
           </form>
       </div>
 
