@@ -16,14 +16,20 @@
           <p id="description">This is a form in order to get enough data in order to access our website!</p>
 
           <form id="survey-form" type="submit">
-            <label for="name">Name </label>
-            <input type="text" name="name" id="name" required>
-            <br>
-            <label for="email">Email </label>
-            <input type="email" name="email" id="email" required>
-            <br>
-            <label for="number">Number</label>
-            <input type="number" name="number" id="number">
+            <div class="form-group">
+                <label for="name-label" id="name-label">Name </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email-label" id="email-label">Email </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+              <div class="form-group">
+                  <label for="number-labe" id="number-label">Number</label>
+                  <input type="number" name="number" id="number" min="1" max="10">
+              </div>
 
           </form>
       </div>
